@@ -1,11 +1,14 @@
 import React from "react";
 import "./App.css";
-import RegistrationForm from "./components/RegistrationForm";
+import Bunch from "./components/Bunch";
 
 const App = () => {
   return (
     <div>
-      <RegistrationForm/>
+      <form action="">
+        <h1>Login form</h1>
+        <Bunch />
+      </form>
     </div>
   );
 };

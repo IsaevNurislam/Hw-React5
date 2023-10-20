@@ -5,14 +5,14 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: rgb(43, 56, 86);
 }
-h5 {
+p {
   color: red;
   font-size: 14px;
 }
 form > h1 {
   color: white;
   font-size: 3rem;
-  margin-left: 3rem;
+  margin-left: 2.8rem;
 }
 
 form {
