@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@100;300;500&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(43, 56, 86);
+}
+h5 {
+  color: red;
+  font-size: 14px;
+}
+form > h1 {
+  color: white;
+  font-size: 3rem;
+  margin-left: 3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.container > label,
+input {
+  display: block;
+}
+input{
+  width: 13rem;
+  height: 2rem;
+}
+label{
+  color: white;
+}
+button{
+  width: 9rem;
+  height: 2.3rem;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 5rem;
+  cursor: pointer;
+}
