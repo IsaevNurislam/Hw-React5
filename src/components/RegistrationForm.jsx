@@ -68,7 +68,7 @@ function RegistrationForm() {
     if (password === "") {
       setPasswordValid("Поле не должно быть пустым");
     } else if (password.length < 6) {
-      setPasswordValid("Пароль не должен привышать 6 символов ");
+      setPasswordValid("Пароль должен привышать 6 символов ");
     } else {
       setPasswordValid("");
     }
