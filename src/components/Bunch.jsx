@@ -1,7 +1,7 @@
 import React from "react";
 import Input from "./Input";
 
-function Bunch() {
+function BunchInputs() {
   return (
     <div>
       <Input
@@ -43,4 +43,4 @@ function Bunch() {
   );
 }
 
-export default Bunch;
+export default BunchInputs;
