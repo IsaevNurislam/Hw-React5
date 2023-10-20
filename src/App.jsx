@@ -8,6 +8,7 @@ const App = () => {
       <form action="">
         <h1>Login form</h1>
         <Bunch />
+        <button>Register</button>
       </form>
     </div>
   );
