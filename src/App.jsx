@@ -5,10 +5,10 @@ import BunchInputs from "./components/BunchInputs";
 const App = () => {
   return (
     <div>
-      <form action="">
+      <form onSubmit={(e) => e.preventDefault()}>
         <h1>Login form</h1>
         <BunchInputs />
-        <button>Register</button>
+        <button type="submit">Register</button>
       </form>
     </div>
   );
