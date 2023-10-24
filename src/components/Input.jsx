@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const MyInput = ({ labelText, type, error1 }) => {
+const Input = ({ labelText, type, error1 }) => {
   const [inputsValue, setInputsValue] = useState("");
   const [error, setError] = useState("");
 
@@ -52,4 +52,4 @@ const MyInput = ({ labelText, type, error1 }) => {
     </>
   );
 };
-export default MyInput;
+export default Input;
